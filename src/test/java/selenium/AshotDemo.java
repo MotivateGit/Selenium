@@ -1,5 +1,7 @@
 package selenium;
 
+
+
 import java.io.File;
 import java.io.IOException;
 
@@ -15,6 +17,10 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
+/**
+ * @author Bharathiraja
+ *
+ */
 public class AshotDemo {
 	
 	@Test(priority=0)
