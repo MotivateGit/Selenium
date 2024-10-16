@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CSS_Selectors {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\Drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Bharathiraja\\eclipse_workspace\\selenium\\Selenium\\Drivers\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();

@@ -20,7 +20,7 @@ public class WriteExcelFile{
 	
 	@Test
 	public static void writeToExcel() throws IOException {
-		File file = new File("D:\\Study Materials\\MachineLearning\\demo.xlsx");
+		File file = new File("C:\\Bharathiraja\\write_to_excel.xlsx");
         FileInputStream fis = new FileInputStream(file);
 
         //Create Workbook instance holding reference to .xlsx file
@@ -33,7 +33,7 @@ public class WriteExcelFile{
         int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
         Row row = sheet.getRow(0);
         Row newRow = sheet.createRow(rowCount+1);
-        for(int j=0;j<row.getLastCellNum();j++) {
+        for(int j=0;j<valueToWrite.length;j++) {
         	Cell cell = newRow.createCell(j);
         	cell.setCellValue(valueToWrite[j]);
         	

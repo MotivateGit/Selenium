@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MultiThreadingDemo extends Thread {
 	private WebDriver driver;
@@ -29,10 +29,10 @@ public class MultiThreadingDemo extends Thread {
 
 	public void setup(String browserType) {
 		if (browserType.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browserType.equalsIgnoreCase("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 

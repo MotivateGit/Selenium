@@ -12,7 +12,7 @@ public class ReadExcelDemo {
 	@Test
 	public static void readExcel() {
 		try {
-			File file = new File("D:\\Study Materials\\MachineLearning\\demo.xlsx");
+			File file = new File("C:\\Bharathiraja\\Automation Concepts - Checklist.xlsx");
 			FileInputStream fis = new FileInputStream(file);
 
 			// Create Workbook instance holding reference to .xlsx file
@@ -21,7 +21,9 @@ public class ReadExcelDemo {
 			// Get first/desired sheet from the workbook
 			XSSFSheet sheet = workbook.getSheetAt(0);
 
+			// get the count of rows on available records
 			int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
+			System.out.println("Count of rows: " + rowCount);
 
 			for (int i = 0; i < rowCount; i++) {
 				Row row = sheet.getRow(i);

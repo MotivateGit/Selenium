@@ -10,8 +10,7 @@ public class ShadowDOMDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 	
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Softwares\\Drivers\\chromedriver-win64-119\\chromedriver-win64-119\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Bharathiraja\\eclipse_workspace\\selenium\\Selenium\\Drivers\\chromedriver-win64\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

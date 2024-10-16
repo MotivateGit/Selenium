@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrokenLinks {
 	private static WebDriver driver = null;
@@ -21,7 +21,7 @@ public class BrokenLinks {
         // TODO Auto-generated method stub
 //    	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 	    
-    	WebDriverManager.chromedriver().setup();
+//    	WebDriverManager.chromedriver().setup();
     	driver = new ChromeDriver();
         String homePage = "http://www.zlti.com";
         String url = "";

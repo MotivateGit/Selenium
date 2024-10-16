@@ -14,7 +14,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CrossBrowserScript {
 
@@ -32,13 +32,13 @@ public class CrossBrowserScript {
 		// Check if parameter passed from TestNG is 'firefox'
 		if (browser.equalsIgnoreCase("Firefox")) {
 			// create firefox instance
-			WebDriverManager.firefoxdriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		// Check if parameter passed as 'chrome'
 		else if (browser.equalsIgnoreCase("Chrome")) {
 			// set path to chromedriver.exe
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();
 			// create chrome instance
 			driver = new ChromeDriver();
 			ChromeDriver dr = new ChromeDriver();
@@ -48,7 +48,7 @@ public class CrossBrowserScript {
 		// Check if parameter passed as 'Edge'
 		else if (browser.equalsIgnoreCase("Edge")) {
 			// set path to Edge.exe
-			WebDriverManager.edgedriver().setup();
+//			WebDriverManager.edgedriver().setup();
 
 			// create Edge instance
 			driver = new EdgeDriver();

@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 /*What is Singleton Design Pattern?
 When we develop a class in such a way that it can have only instance at any time, is called Singleton design pattern. 
@@ -29,10 +29,10 @@ public class SingletonBaseClass {
 	public static void init() {
 		if (driver == null) {
 			if (browserName.equalsIgnoreCase("chrome")) {
-				WebDriverManager.chromedriver().setup();
+//				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 			} else if (browserName.equalsIgnoreCase("firefox")) {
-				WebDriverManager.firefoxdriver().setup();
+//				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 			}
 		}

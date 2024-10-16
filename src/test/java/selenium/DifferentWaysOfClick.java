@@ -10,12 +10,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DifferentWaysOfClick {
 
 	public static void main(String[] args) {
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("http://www.facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -7,12 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NoOfRowsAndColumns {
 	@Test
 	public static void noOfRowsAndColumns() {
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/web-table-element.php");
 		// No.of Rows

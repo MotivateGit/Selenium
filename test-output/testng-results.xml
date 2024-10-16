@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-17T23:26:24 IST" name="Default suite" finished-at="2024-02-17T23:26:26 IST" duration-ms="1803">
+  <suite started-at="2024-10-09T07:16:25 IST" name="Default suite" finished-at="2024-10-09T07:16:25 IST" duration-ms="42">
     <groups>
     </groups>
-    <test started-at="2024-02-17T23:26:24 IST" name="Default test" finished-at="2024-02-17T23:26:26 IST" duration-ms="1803">
-      <class name="emailTesting.EmailTestDemo">
-        <test-method signature="testEmail()[pri:0, instance:emailTesting.EmailTestDemo@217ed35e]" started-at="2024-02-17T23:26:24 IST" name="testEmail" finished-at="2024-02-17T23:26:26 IST" duration-ms="1752" status="PASS">
+    <test started-at="2024-10-09T07:16:25 IST" name="Default test" finished-at="2024-10-09T07:16:25 IST" duration-ms="42">
+      <class name="testNG.DataProvider_LoginTest">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.DataProvider_LoginTest@61001b64]" started-at="2024-10-09T07:16:25 IST" name="testLogin" data-provider="loginData" finished-at="2024-10-09T07:16:25 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEmail -->
-      </class> <!-- emailTesting.EmailTestDemo -->
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.DataProvider_LoginTest@61001b64]" started-at="2024-10-09T07:16:25 IST" name="testLogin" data-provider="loginData" finished-at="2024-10-09T07:16:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.DataProvider_LoginTest@61001b64]" started-at="2024-10-09T07:16:25 IST" name="testLogin" data-provider="loginData" finished-at="2024-10-09T07:16:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- testNG.DataProvider_LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

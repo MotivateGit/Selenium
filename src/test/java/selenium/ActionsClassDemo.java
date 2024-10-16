@@ -11,7 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 /*
  * Actions is a Class where as Action is a Interace.
@@ -24,8 +23,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ActionsClassDemo {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Softwares\\Drivers\\chromedriver-win64-119\\chromedriver-win64-119\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",
+//				"D:\\Softwares\\Drivers\\chromedriver-win64-119\\chromedriver-win64-119\\chromedriver.exe");
 
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--remote-allow-origins");

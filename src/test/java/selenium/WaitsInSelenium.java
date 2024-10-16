@@ -12,13 +12,13 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WaitsInSelenium {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		WebElement ele = driver.findElement(By.xpath(null));
 		//Implicit Wait
