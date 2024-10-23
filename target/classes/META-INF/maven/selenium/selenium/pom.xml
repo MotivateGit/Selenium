@@ -13,7 +13,7 @@
 			<version>4.25.0</version>
 		</dependency>
 
-	<!--	<dependency>
+		<!--	<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
 			<version>4.9.1</version>
@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
+			<version>7.10.2</version>
 		</dependency>
 
 		<dependency>
@@ -78,6 +78,14 @@
 			<groupId>com.mailosaur</groupId>
 			<artifactId>mailosaur-java</artifactId>
 			<version>7.13.1</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>9.3.0</version>
 		</dependency>
 
 

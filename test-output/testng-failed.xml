@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.selenium4Features.WindowsHandling">
+      <class name="appium.AppiumBasics">
         <methods>
-          <include name="afterClass"/>
-          <include name="switchToOriginalWindow"/>
-          <include name="setUp"/>
+          <include name="AppiumTest"/>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- selenium.selenium4Features.WindowsHandling -->
+      </class> <!-- appium.AppiumBasics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
